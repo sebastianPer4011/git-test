@@ -5,7 +5,23 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
 a {
   color: #fff;
   text-decoration: none;
+}
+
+.drop-caps:first-child:first-letter {
+  color: #000;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
 }
